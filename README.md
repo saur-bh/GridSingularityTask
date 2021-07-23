@@ -19,7 +19,7 @@ Install node.js and npm on the system
 3. Create a simulation
 
 ## Demo 
-pasteyouttubeLink
+https://youtu.be/Ut6vC_eSykA
 
 ## Setup
 
@@ -28,9 +28,10 @@ pasteyouttubeLink
 
 ## Running Tests
 
-* To run all of the tests, run `npm run cy:open` - headed Mode
-* To run individual tests, run `npm run cy:tests --glob 'cypress/integration/**/login.feature'`
+* To run all  or indiviual tests, run `npm run cy:open` - headed Mode
+* To run individual tests from command prompt , run `npm run cy:tests --glob 'cypress/integration/**/login.feature'`  - headlessMode
 
 ## Enhancement
   * Integration with CI tool i.e. Jenkins
   * graphQL call for setup and tearDown 
+  * Alternative way to find elemnet if could not be located.
